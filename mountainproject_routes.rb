@@ -1,3 +1,10 @@
+######################################################
+
+# Web scraping test with mountianproject
+# Scrapes popular routes from each major location
+
+######################################################
+
 require 'nokogiri'
 require 'open-uri'
 

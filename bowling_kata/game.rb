@@ -29,7 +29,7 @@ class Game
         score += 10 + spare_bonus(frame)
         frame += 2
       else
-        score += sum_of_balls_in_frame(frame)
+        score += frame_total(frame)
         frame += 2
       end
     end
@@ -37,7 +37,7 @@ class Game
   end
 
   private
-  def sum_of_balls_in_frame(frame)
+  def frame_total(frame)
     @rolls[frame] + @rolls[frame + 1]
   end
 

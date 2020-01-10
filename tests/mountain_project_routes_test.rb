@@ -1,7 +1,7 @@
 require File.join(File.dirname(__FILE__), '..', 'web_scrapping_mp/mountain_project_routes.rb')
 require 'test/unit'
 
-class TestMPWebScrapping < Test::Unit::TestCase
+class MPWebScrappingTest < Test::Unit::TestCase
 
   def test_openning_a_webpage
     html = "https://www.example.com"
